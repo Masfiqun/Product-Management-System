@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405541400367",
+    "project_id": "record-f5616",
+    "storage_bucket": "record-f5616.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405541400367:android:1fb1c437c137de3ce37bda",
+        "android_client_info": {
+          "package_name": "com.example.record"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_3Vu2Ul_k4vJwxt4er1NQi74ZxWpzoXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
