@@ -30,9 +30,14 @@ A modern Flutter application for managing product shipments, check-ins, and PDF 
 
 ## 🖼️ Screenshots
 
-| Log In | Registration | Home Screen | Checkout | Shipment List | Shipment Details | Product Details |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
-| <img src="assets/ss/login.jpg" height="300"> | <img src="assets/ss/registration.jpg" height="300"> | <img src="assets/ss/home.jpg" height="300"> | <img src="assets/ss/checkout.jpg" height="300"> | <img src="assets/ss/shipment_l.jpg" height="300"> | <img src="assets/ss/shipment_d.jpg" height="300"> | <img src="assets/ss/product_d.jpg" height="300">
+| Log In | Registration | Home Screen | Checkout |
+|--------|--------------|-------------|----------|
+| <img src="assets/ss/login.jpg" width="180"> | <img src="assets/ss/registration.jpg" width="180"> | <img src="assets/ss/home.jpg" width="180"> | <img src="assets/ss/checkout.jpg" width="180"> |
+
+| Shipment List | Shipment Details | Product Details |
+|---------------|------------------|------------------|
+| <img src="assets/ss/shipment_l.jpg" width="180"> | <img src="assets/ss/shipment_d.jpg" width="180"> | <img src="assets/ss/product_d.jpg" width="180"> |
+
 
 
 ## 🧱<Tech StackA breakdown of the core technologies used in the Flutter Shipment Management Ap 
