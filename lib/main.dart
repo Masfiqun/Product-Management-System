@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import 'package:record/services/auth_service.dart';
-import 'package:record/screens/auth/login_screen.dart';
 import 'package:record/screens/auth/register_screen.dart';
 import 'package:record/screens/home/home_screen.dart';
-import 'package:record/screens/product/product_checkin.dart';
 import 'package:record/screens/product/product_checkout.dart';
 import 'package:record/screens/shipment/shipment_list.dart';
+import 'package:record/services/auth_wrapper.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -31,9 +30,8 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
           useMaterial3: true,
         ),
-        initialRoute: '/login',
+        home: const AuthWrapper(), 
         routes: {
-          '/login': (context) => const LoginScreen(),
           '/register': (context) => const RegisterScreen(),
           '/home': (context) => const HomeScreen(),
           '/product-checkout': (context) => const ProductCheckoutScreen(),

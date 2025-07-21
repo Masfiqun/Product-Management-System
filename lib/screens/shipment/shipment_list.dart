@@ -142,26 +142,6 @@ Future<pw.PageTheme> _myPageTheme() async {
 }
 
 
-
-
-  Future<void> _completeShipment(Shipment shipment) async {
-    try {
-      final updatedShipment = shipment.copyWith(isCompleted: true);
-      await _firestoreService.updateShipment(updatedShipment);
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Shipment marked as completed')),
-        );
-      }
-    } catch (e) {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Error updating shipment: ${e.toString()}')),
-        );
-      }
-    }
-  }
-
   Future<void> _showDeleteConfirmation(Shipment shipment) async {
     return showDialog(
       context: context,
